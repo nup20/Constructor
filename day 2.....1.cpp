@@ -8,6 +8,7 @@ class Student
 public:
     string name,ss;
 
+    
 
     Student()
     {
