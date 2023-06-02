@@ -4,6 +4,7 @@ using namespace std;
 class Shape
 {
     public:
+    
     double Length,Breadth,side;
 
     void area(double l,double b)
