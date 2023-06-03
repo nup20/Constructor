@@ -1,35 +1,83 @@
 #include <iostream>
 
 using namespace std;
-class Area
-{ public:
- double length,breadth,Area;
+class Programming
+{   public:
+    string a="NULL";
 
- setDim( double l,double b)
- {
-   length=l;
-   breadth=b;
- }
- int returnArea()
- {
-     Area=length*breadth;
-     return Area;
- }
+Programming()
+{
+
+}
+Programming()
+{
+
+}
+
+void pro(string Asterisc)
+{
+
+     if(Asterisc==a)
+        cout<<"I Love Programming Language,"<<endl;
+    else
+        cout<<"I Love Asterisc"<<endl;
+
+}
+
 
 };
-
 int main()
-{ float l,b;
- Area A;
-cout << "Length:"<<endl;
-cin>>l;
-cout << "Breadth:"<<endl;
-cin>>b;
-     A.setDim(l,b);
+{string  Asterisc;
+
+ Programming P;
+
+    cout<<"Enter the String:"<<endl;
+    cin>>Asterisc;
+    P.pro(Asterisc);
 
 
 
-
-    cout << "Area of Rectangle:" <<A.returnArea()<<endl;
     return 0;
 }
+
+
+/*
+
+class Programming
+{   public:
+    string a="NULL";
+
+Programming()
+{
+
+}
+Programming()
+{
+
+}
+
+void pro(string Asterisc)
+{
+
+     if(Asterisc==a)
+        cout<<"I Love Programming Language,"<<endl;
+    else
+        cout<<"I Love Asterisc"<<endl;
+
+}
+
+
+};
+int main()
+{string  Asterisc;
+
+ Programming P;
+
+    cout<<"Enter the String:"<<endl;
+    cin>>Asterisc;
+    P.pro(Asterisc);
+
+
+    return 0;
+}
+/*
